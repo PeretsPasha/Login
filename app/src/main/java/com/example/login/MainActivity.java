@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements ExampleDialog.Exa
 
     public void openDialog() {
         ExampleDialog exampleDialog = new ExampleDialog();
-        exampleDialog.show(getSupportFragmentManager(), "example  dialog");
+        exampleDialog.show(getSupportFragmentManager(), "example dialog");
     }
 
     @Override
